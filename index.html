@@ -21,17 +21,17 @@
       object-fit: cover;
       z-index: 1;
     }
-    #hiddenButton {
-      position: absolute;
-      width: 1500px;
-      height: 1500px;
-      background: transparent;
-      border: none;
-      cursor: pointer;
-      z-index: 2;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+  #hiddenButton {
+    position: fixed;         
+    top: 0;                     
+    left: 0;                   
+    width: 100vw;               
+    height: 100vh;              
+    background: transparent;    
+    border: none;               
+    cursor: pointer;            
+    z-index: 9999;             
+  }
     }
   </style>
 </head>
